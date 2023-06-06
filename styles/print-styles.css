@@ -1,0 +1,70 @@
+body{
+    min-height: 100vh;
+    margin: 0px;
+}
+
+.asideForm{
+    float: right;
+    width: 20%;
+    padding: 2%;
+    margin:0px;
+    background-color: bisque;
+    height: 100vh;
+}
+
+.field{
+    float: right;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5%;
+}
+
+.field label{
+    display: block;
+    text-align: center;
+}
+
+.field input{
+    display: block;
+}
+
+.field textarea{
+    display: block;
+}
+
+.field button{
+    display: block;
+    text-align: center;
+    margin: 0px;
+}
+
+#cards{
+    width: 100%;
+    margin:0px;
+    margin-left: 1%;
+    margin-top: 1%;
+    display: grid;
+    grid-template-columns: 44% 44%;
+    column-gap: 6%;
+    row-gap: 20px;
+    float: left;
+}
+
+.card{
+    display: block;
+    float: left;
+    width: 100%;
+    padding: 4%;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.card img {
+    max-width: 240px;
+}
+
+.card .imageCenter{
+    text-align: center;
+    width: 100%;
+}
